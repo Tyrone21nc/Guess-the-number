@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(32, 27, 27);
+    color: rgb(19, 69, 19);
+}
+h2{
+    font-size: 5em;
+    text-align: center;
+}
+.nums{
+    background-color: black;
+    color: brown;
+    border: none;
+    font-size: 2em;
+    padding: 10px;
+    margin: 0 5px;
+}
+.num{
+    text-align: center;
+}
+.nums:hover{
+    background-color: rgb(19, 17, 17);
+    color: rgb(58, 220, 61);
+}
+.cnt{
+    display: inline;
+    padding-left: 500px;
+    font-size: 1.2em;
+    color: gold;
+}
+#countValue{
+    display: inline;
+    font-size: 1.2em;
+    color: gold;
+}
+.ending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+.myimg{
+    text-align: center;
+}
+#wonimg{
+    border-radius: 20px;
+}
