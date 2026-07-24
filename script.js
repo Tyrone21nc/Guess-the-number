@@ -9,8 +9,6 @@ eight = document.getElementById("eight");
 nine = document.getElementById("nine");
 ten = document.getElementById("ten");
 
-document.body.style.background = "purple";
-
 guess = Math.floor(Math.random() * 6) + 1;
 
 let chance = 5;
