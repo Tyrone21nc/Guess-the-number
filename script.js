@@ -59,5 +59,6 @@ if(chances == 0 || guessed){
     allButtons[button].style.color = "brown";
     allButtons[button].style.background = "rgb(58, 220, 61)";
 }
+console.log("HIIIII");
 
 
