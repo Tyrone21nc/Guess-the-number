@@ -54,11 +54,11 @@ nine.onclick = () => handleClick(nine);
 ten.onclick = () => handleClick(ten);
 
 // show the correct number at the end
+console.log("HIIIII");
 let allButtons = document.querySelector(".num").querySelectorAll("buttons");
 if(chances == 0 || guessed){
     allButtons[button].style.color = "brown";
     allButtons[button].style.background = "rgb(58, 220, 61)";
 }
-console.log("HIIIII");
 
 
