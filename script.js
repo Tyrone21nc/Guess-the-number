@@ -24,8 +24,8 @@ function handleClick(button) {
 
     if (guess.toString() === button.textContent) {
         document.getElementById("won").textContent = "You've guessed the correct number. Congrats ✅";
-        button.style.color = "brown";
-        button.style.background = "rgb(58, 220, 61)";
+        // button.style.color = "brown";
+        // button.style.background = "rgb(58, 220, 61)";
         document.getElementById("wonimg").src = "goblin1.png";
         guessed = true;
     } else {
@@ -35,6 +35,8 @@ function handleClick(button) {
             document.getElementById("won").style.color = "brown";
             document.getElementById("won").textContent = "Game Over! No more chances. ❌";
             document.getElementById("wonimg").src = "goblin2.gif";
+            // button.style.color = "brown";
+            // button.style.background = "rgb(58, 220, 61)";
         }
     }
 }
@@ -50,5 +52,12 @@ seven.onclick = () => handleClick(seven);
 eight.onclick = () => handleClick(eight);
 nine.onclick = () => handleClick(nine);
 ten.onclick = () => handleClick(ten);
+
+// show the correct number at the end
+let allButtons = document.querySelector(".num").querySelectorAll("buttons");
+if(chances == 0 || guessed){
+    allButtons[button].style.color = "brown";
+    allButtons[button].style.background = "rgb(58, 220, 61)";
+}
 
 
